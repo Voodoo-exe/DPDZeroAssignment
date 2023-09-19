@@ -5,13 +5,14 @@ This is a take home assessment for creating backend system for DPDZero. This rea
 ## DB Setup
 > We are using MySQL DB. Download MySQL and create a Schema with the name `users` and a tables with the name `users` and `key_value_data`.
 >`users` table has columns as below:
->>`id` - Integer (PK, NN, AI)
->>`username` - String (VARCHAR) (NN, UQ)
->>`email` - String (NN, UQ)
->>`password` - String (NN)
->>`age'` - Integer 
->>`gender` - String
->>*NNN = Non Nullable, UQ: Uniqe, PK = Pimary Key, AI= Auto Increment
+  >>`id` - Integer (PK, NN, AI)
+  >>`username` - String (VARCHAR) (NN, UQ)
+  >>`email` - String (NN, UQ)
+  >>`password` - String (NN)
+  >>`age'` - Integer 
+  >>`gender` - String
+  >>*NNN = Non Nullable, UQ: Uniqe, PK = Pimary Key, AI= Auto Increment
+
 >`key_value_data` has following columns:
 >>`id` - INT (PK, NN, AI)
 >>`key` - String (UQ, NN)
