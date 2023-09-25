@@ -1,6 +1,6 @@
 # DPDZeroAssignment
 
-This is a take home assessment for creating backend system for DPDZero. This readme will guide you yo setting up this project easily.
+This is a take home assessment for creating backend system for DPDZero. This readme will guide you to setting up this project easily.
 
 ## DB Setup
 - We are using MySQL DB. Download MySQL and create a Schema with the name `users` and a tables with the name `users` and `key_value_data`.
